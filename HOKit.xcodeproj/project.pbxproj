@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3076A3A5C927514C91E655AE /* libPods-HOKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71613BDDCA3343C9FEA8D0E1 /* libPods-HOKitTests.a */; };
 		7719972D22094C200018A07B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7719972C22094C200018A07B /* AppDelegate.m */; };
 		7719973022094C200018A07B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7719972F22094C200018A07B /* ViewController.m */; };
 		7719973322094C200018A07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7719973122094C200018A07B /* Main.storyboard */; };
@@ -15,6 +16,11 @@
 		7719973B22094C220018A07B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7719973A22094C220018A07B /* main.m */; };
 		7719974522094C230018A07B /* HOKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7719974422094C230018A07B /* HOKitTests.m */; };
 		7719975022094C230018A07B /* HOKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7719974F22094C230018A07B /* HOKitUITests.m */; };
+		7719975F22094C360018A07B /* HOBottomSheetV1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7719975E22094C360018A07B /* HOBottomSheetV1.m */; };
+		77FE7D7C220AD66200AA1B33 /* HOBottomSheetV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE7D7B220AD66200AA1B33 /* HOBottomSheetV2.m */; };
+		77FE7D7F220ADBF000AA1B33 /* UIScrollView+EnableSimultaneously.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE7D7E220ADBF000AA1B33 /* UIScrollView+EnableSimultaneously.m */; };
+		AFD3C2942133A6C47E8F40AA /* libPods-HOKitUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D45C9F4565186146379EB39 /* libPods-HOKitUITests.a */; };
+		B0D5A870AB174CA17E6711BD /* libPods-HOKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8DA0030F90C28E168FD187 /* libPods-HOKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D8DA0030F90C28E168FD187 /* libPods-HOKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HOKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3262E7D8B5E0086D431AB607 /* Pods-HOKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-HOKit/Pods-HOKit.release.xcconfig"; sourceTree = "<group>"; };
+		65E27FF53DEC972700FF54E9 /* Pods-HOKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HOKitTests/Pods-HOKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D45C9F4565186146379EB39 /* libPods-HOKitUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HOKitUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71613BDDCA3343C9FEA8D0E1 /* libPods-HOKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HOKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7719972822094C200018A07B /* HOKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7719972B22094C200018A07B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7719972C22094C200018A07B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,16 @@
 		7719974B22094C230018A07B /* HOKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HOKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7719974F22094C230018A07B /* HOKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOKitUITests.m; sourceTree = "<group>"; };
 		7719975122094C230018A07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7719975D22094C360018A07B /* HOBottomSheetV1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOBottomSheetV1.h; sourceTree = "<group>"; };
+		7719975E22094C360018A07B /* HOBottomSheetV1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOBottomSheetV1.m; sourceTree = "<group>"; };
+		7719D26C2E4DFD14B7680F04 /* Pods-HOKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HOKitTests/Pods-HOKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		77FE7D7A220AD66200AA1B33 /* HOBottomSheetV2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOBottomSheetV2.h; sourceTree = "<group>"; };
+		77FE7D7B220AD66200AA1B33 /* HOBottomSheetV2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOBottomSheetV2.m; sourceTree = "<group>"; };
+		77FE7D7D220ADBF000AA1B33 /* UIScrollView+EnableSimultaneously.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EnableSimultaneously.h"; sourceTree = "<group>"; };
+		77FE7D7E220ADBF000AA1B33 /* UIScrollView+EnableSimultaneously.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EnableSimultaneously.m"; sourceTree = "<group>"; };
+		829EB9EE0159893225ECC4BD /* Pods-HOKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOKitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HOKitUITests/Pods-HOKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC575C2DFE5FEC53B0D4F596 /* Pods-HOKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HOKit/Pods-HOKit.debug.xcconfig"; sourceTree = "<group>"; };
+		FB5FB55747447A8B9645AC14 /* Pods-HOKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOKitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HOKitUITests/Pods-HOKitUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D5A870AB174CA17E6711BD /* libPods-HOKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3076A3A5C927514C91E655AE /* libPods-HOKitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +95,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD3C2942133A6C47E8F40AA /* libPods-HOKitUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45A01865DBC3D964999E92A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D8DA0030F90C28E168FD187 /* libPods-HOKit.a */,
+				71613BDDCA3343C9FEA8D0E1 /* libPods-HOKitTests.a */,
+				6D45C9F4565186146379EB39 /* libPods-HOKitUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7719971F22094C200018A07B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +119,8 @@
 				7719974322094C230018A07B /* HOKitTests */,
 				7719974E22094C230018A07B /* HOKitUITests */,
 				7719972922094C200018A07B /* Products */,
+				FABA2780E66A05B554966DE2 /* Pods */,
+				45A01865DBC3D964999E92A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +146,12 @@
 				7719973622094C220018A07B /* LaunchScreen.storyboard */,
 				7719973922094C220018A07B /* Info.plist */,
 				7719973A22094C220018A07B /* main.m */,
+				7719975D22094C360018A07B /* HOBottomSheetV1.h */,
+				7719975E22094C360018A07B /* HOBottomSheetV1.m */,
+				77FE7D7A220AD66200AA1B33 /* HOBottomSheetV2.h */,
+				77FE7D7B220AD66200AA1B33 /* HOBottomSheetV2.m */,
+				77FE7D7D220ADBF000AA1B33 /* UIScrollView+EnableSimultaneously.h */,
+				77FE7D7E220ADBF000AA1B33 /* UIScrollView+EnableSimultaneously.m */,
 			);
 			path = HOKit;
 			sourceTree = "<group>";
@@ -132,6 +174,19 @@
 			path = HOKitUITests;
 			sourceTree = "<group>";
 		};
+		FABA2780E66A05B554966DE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC575C2DFE5FEC53B0D4F596 /* Pods-HOKit.debug.xcconfig */,
+				3262E7D8B5E0086D431AB607 /* Pods-HOKit.release.xcconfig */,
+				65E27FF53DEC972700FF54E9 /* Pods-HOKitTests.debug.xcconfig */,
+				7719D26C2E4DFD14B7680F04 /* Pods-HOKitTests.release.xcconfig */,
+				829EB9EE0159893225ECC4BD /* Pods-HOKitUITests.debug.xcconfig */,
+				FB5FB55747447A8B9645AC14 /* Pods-HOKitUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7719975422094C230018A07B /* Build configuration list for PBXNativeTarget "HOKit" */;
 			buildPhases = (
+				5E40A742E345AA43184DEC5A /* [CP] Check Pods Manifest.lock */,
 				7719972422094C200018A07B /* Sources */,
 				7719972522094C200018A07B /* Frameworks */,
 				7719972622094C200018A07B /* Resources */,
@@ -156,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7719975722094C230018A07B /* Build configuration list for PBXNativeTarget "HOKitTests" */;
 			buildPhases = (
+				58BBA4AB828DDC773C57746F /* [CP] Check Pods Manifest.lock */,
 				7719973C22094C230018A07B /* Sources */,
 				7719973D22094C230018A07B /* Frameworks */,
 				7719973E22094C230018A07B /* Resources */,
@@ -174,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7719975A22094C230018A07B /* Build configuration list for PBXNativeTarget "HOKitUITests" */;
 			buildPhases = (
+				3EC45C08D2F286F3F3607053 /* [CP] Check Pods Manifest.lock */,
 				7719974722094C230018A07B /* Sources */,
 				7719974822094C230018A07B /* Frameworks */,
 				7719974922094C230018A07B /* Resources */,
@@ -257,14 +315,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3EC45C08D2F286F3F3607053 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HOKitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58BBA4AB828DDC773C57746F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HOKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E40A742E345AA43184DEC5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HOKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7719972422094C200018A07B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77FE7D7C220AD66200AA1B33 /* HOBottomSheetV2.m in Sources */,
 				7719973022094C200018A07B /* ViewController.m in Sources */,
+				77FE7D7F220ADBF000AA1B33 /* UIScrollView+EnableSimultaneously.m in Sources */,
 				7719973B22094C220018A07B /* main.m in Sources */,
 				7719972D22094C200018A07B /* AppDelegate.m in Sources */,
+				7719975F22094C360018A07B /* HOBottomSheetV1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +563,7 @@
 		};
 		7719975522094C230018A07B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC575C2DFE5FEC53B0D4F596 /* Pods-HOKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +581,7 @@
 		};
 		7719975622094C230018A07B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3262E7D8B5E0086D431AB607 /* Pods-HOKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +599,7 @@
 		};
 		7719975822094C230018A07B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E27FF53DEC972700FF54E9 /* Pods-HOKitTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +619,7 @@
 		};
 		7719975922094C230018A07B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7719D26C2E4DFD14B7680F04 /* Pods-HOKitTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +639,7 @@
 		};
 		7719975B22094C230018A07B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829EB9EE0159893225ECC4BD /* Pods-HOKitUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Z762GFY6S;
@@ -523,6 +658,7 @@
 		};
 		7719975C22094C230018A07B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB5FB55747447A8B9645AC14 /* Pods-HOKitUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Z762GFY6S;
