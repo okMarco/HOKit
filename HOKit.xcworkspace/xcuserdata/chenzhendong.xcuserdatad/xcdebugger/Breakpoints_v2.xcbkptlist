@@ -9,13 +9,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HOKit/Douban/FixedContentScrollView.m"
-            timestampString = "572002935.548702"
+            filePath = "HOKit/InsVideo/InsVideoCell.m"
+            timestampString = "572011666.690799"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "223"
-            endingLineNumber = "223"
-            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "-applyLayoutAttributes:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HOKit/Douban/FixedContentScrollView.m"
+            timestampString = "572011666.690887"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "-handlePanGesture:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

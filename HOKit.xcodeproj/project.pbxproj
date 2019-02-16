@@ -24,6 +24,8 @@
 		77DF77462217EBF90020089A /* DataListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DF77452217EBF90020089A /* DataListViewController.m */; };
 		77DF77492217FC280020089A /* DoubanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DF77482217FC280020089A /* DoubanViewController.m */; };
 		77DF774D221812350020089A /* InsVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DF774C221812350020089A /* InsVideoViewController.m */; };
+		77DF77532218150C0020089A /* Ins3DFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DF77522218150C0020089A /* Ins3DFlowLayout.m */; };
+		77DF7756221817DC0020089A /* InsVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DF7755221817DC0020089A /* InsVideoCell.m */; };
 		77FE7D7C220AD66200AA1B33 /* HOBottomSheetV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE7D7B220AD66200AA1B33 /* HOBottomSheetV2.m */; };
 		AFD3C2942133A6C47E8F40AA /* libPods-HOKitUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D45C9F4565186146379EB39 /* libPods-HOKitUITests.a */; };
 		B0D5A870AB174CA17E6711BD /* libPods-HOKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8DA0030F90C28E168FD187 /* libPods-HOKit.a */; };
@@ -85,6 +87,10 @@
 		77DF77482217FC280020089A /* DoubanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubanViewController.m; sourceTree = "<group>"; };
 		77DF774B221812350020089A /* InsVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsVideoViewController.h; sourceTree = "<group>"; };
 		77DF774C221812350020089A /* InsVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsVideoViewController.m; sourceTree = "<group>"; };
+		77DF77512218150C0020089A /* Ins3DFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ins3DFlowLayout.h; sourceTree = "<group>"; };
+		77DF77522218150C0020089A /* Ins3DFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ins3DFlowLayout.m; sourceTree = "<group>"; };
+		77DF7754221817DC0020089A /* InsVideoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsVideoCell.h; sourceTree = "<group>"; };
+		77DF7755221817DC0020089A /* InsVideoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsVideoCell.m; sourceTree = "<group>"; };
 		77FE7D7A220AD66200AA1B33 /* HOBottomSheetV2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOBottomSheetV2.h; sourceTree = "<group>"; };
 		77FE7D7B220AD66200AA1B33 /* HOBottomSheetV2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOBottomSheetV2.m; sourceTree = "<group>"; };
 		829EB9EE0159893225ECC4BD /* Pods-HOKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOKitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HOKitUITests/Pods-HOKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -216,6 +222,10 @@
 			children = (
 				77DF774B221812350020089A /* InsVideoViewController.h */,
 				77DF774C221812350020089A /* InsVideoViewController.m */,
+				77DF77512218150C0020089A /* Ins3DFlowLayout.h */,
+				77DF77522218150C0020089A /* Ins3DFlowLayout.m */,
+				77DF7754221817DC0020089A /* InsVideoCell.h */,
+				77DF7755221817DC0020089A /* InsVideoCell.m */,
 			);
 			path = InsVideo;
 			sourceTree = "<group>";
@@ -458,9 +468,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77DF7756221817DC0020089A /* InsVideoCell.m in Sources */,
 				77DF77432217EB9D0020089A /* BottomPagesViewController.m in Sources */,
 				77FE7D7C220AD66200AA1B33 /* HOBottomSheetV2.m in Sources */,
 				7719973022094C200018A07B /* ViewController.m in Sources */,
+				77DF77532218150C0020089A /* Ins3DFlowLayout.m in Sources */,
 				77DF773D2217C7BE0020089A /* NestedTableView.m in Sources */,
 				77DF773A2217C60B0020089A /* FixedContentScrollView.m in Sources */,
 				77DF77492217FC280020089A /* DoubanViewController.m in Sources */,

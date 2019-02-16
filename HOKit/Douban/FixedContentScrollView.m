@@ -141,7 +141,7 @@ static NSString *const kBounceAnimationKey = @"bounce";
                 }
                 self.bounds = bounds;
             }else {
-                CGPoint newContentOffset = CGPointMake(0, self.nestedStartContentOffset.y - [panGesture translationInView:self].y - self.startTranslationY);
+                CGPoint newContentOffset = CGPointMake(0, self.nestedStartContentOffset.y - ([panGesture translationInView:self].y - self.startTranslationY));
                 if (newContentOffset.y < 0) {
                     newContentOffset.y = 0;
                 }

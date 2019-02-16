@@ -9,6 +9,7 @@ target 'HOKit' do
   pod 'pop', '~> 1.0'
   pod 'Masonry'
   pod 'MJRefresh'
+  pod 'SDWebImage'
   
   target 'HOKitTests' do
     inherit! :search_paths
