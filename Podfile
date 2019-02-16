@@ -7,7 +7,9 @@ target 'HOKit' do
 
   # Pods for HOKit
   pod 'pop', '~> 1.0'
-
+  pod 'Masonry'
+  pod 'MJRefresh'
+  
   target 'HOKitTests' do
     inherit! :search_paths
     # Pods for testing

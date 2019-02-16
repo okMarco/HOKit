@@ -8,7 +8,6 @@
 
 #import "HOBottomSheetV2.h"
 #import <pop/POP.h>
-#import "UIScrollView+EnableSimultaneously.h"
 
 @interface HOBottomSheetV2()<UITableViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate>
 

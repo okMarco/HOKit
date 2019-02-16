@@ -9,54 +9,56 @@
 #import "ViewController.h"
 #import "HOBottomSheetV1.h"
 #import "HOBottomSheetV2.h"
+#import "DoubanViewController.h"
+#import "InsVideoViewController.h"
 
-@interface ViewController ()
-@property (nonatomic, strong) HOBottomSheetV1 *bottomSheetV1;
-@property (nonatomic, strong) HOBottomSheetV2 *bottomSheetV2;
-@property (nonatomic, strong) UIButton *bottomSheetButton;
+@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, strong) NSArray *samples;
+
+@property (nonatomic, strong) UITableView *tableView;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    [self bottomSheetButton];
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    _samples = @[@"豆瓣", @"ins-video"];
+    _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+    _tableView.rowHeight = 80;
+    [_tableView registerClass:UITableViewCell.class forCellReuseIdentifier:NSStringFromClass(UITableViewCell.class)];
+    [self.view addSubview:_tableView];
 }
 
-- (HOBottomSheetV1 *)bottomSheetV1 {
-    if (!_bottomSheetV1) {
-        _bottomSheetV1 = [[HOBottomSheetV1 alloc] init];
-    }
-    return _bottomSheetV1;
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return _samples.count;
 }
 
-- (HOBottomSheetV2 *)bottomSheetV2 {
-    if (!_bottomSheetV2) {
-        _bottomSheetV2 = [[HOBottomSheetV2 alloc] init];
-    }
-    return _bottomSheetV2;
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(UITableViewCell.class)];
+    cell.textLabel.text = _samples[indexPath.row];
+    return cell;
 }
 
-- (UIButton *)bottomSheetButton {
-    if (!_bottomSheetButton) {
-        _bottomSheetButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        _bottomSheetButton.backgroundColor = [UIColor orangeColor];
-        [_bottomSheetButton setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
-        [_bottomSheetButton setTitle:@"弹起" forState:UIControlStateNormal];
-        _bottomSheetButton.frame = CGRectMake(0, 0, self.view.bounds.size.width / 2.0, 50);
-        _bottomSheetButton.center = self.view.center;
-        [_bottomSheetButton addTarget:self action:@selector(bottomSheetBtnTapped) forControlEvents:UIControlEventTouchUpInside];
-        [self.view addSubview:_bottomSheetButton];
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    UIViewController *viewController;
+    switch (indexPath.row) {
+        case 0: {
+            viewController = [[DoubanViewController alloc] init];
+            break;
+        }
+        case 1: {
+            viewController = [[InsVideoViewController alloc] init];
+            break;
+        }
+        default:
+            break;
     }
-    return _bottomSheetButton;
-}
-
-
-- (void)bottomSheetBtnTapped {
-    if (self.bottomSheetV2.hidden) {
-        [self.bottomSheetV2 show];
-    }
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 @end

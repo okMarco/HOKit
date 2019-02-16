@@ -17,8 +17,14 @@
 		7719974522094C230018A07B /* HOKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7719974422094C230018A07B /* HOKitTests.m */; };
 		7719975022094C230018A07B /* HOKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7719974F22094C230018A07B /* HOKitUITests.m */; };
 		7719975F22094C360018A07B /* HOBottomSheetV1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7719975E22094C360018A07B /* HOBottomSheetV1.m */; };
+		77DF773A2217C60B0020089A /* FixedContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DF77392217C60B0020089A /* FixedContentScrollView.m */; };
+		77DF773D2217C7BE0020089A /* NestedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DF773C2217C7BE0020089A /* NestedTableView.m */; };
+		77DF77402217DD050020089A /* FixedBottomSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DF773F2217DD050020089A /* FixedBottomSheetView.m */; };
+		77DF77432217EB9D0020089A /* BottomPagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DF77422217EB9D0020089A /* BottomPagesViewController.m */; };
+		77DF77462217EBF90020089A /* DataListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DF77452217EBF90020089A /* DataListViewController.m */; };
+		77DF77492217FC280020089A /* DoubanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DF77482217FC280020089A /* DoubanViewController.m */; };
+		77DF774D221812350020089A /* InsVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DF774C221812350020089A /* InsVideoViewController.m */; };
 		77FE7D7C220AD66200AA1B33 /* HOBottomSheetV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE7D7B220AD66200AA1B33 /* HOBottomSheetV2.m */; };
-		77FE7D7F220ADBF000AA1B33 /* UIScrollView+EnableSimultaneously.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE7D7E220ADBF000AA1B33 /* UIScrollView+EnableSimultaneously.m */; };
 		AFD3C2942133A6C47E8F40AA /* libPods-HOKitUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D45C9F4565186146379EB39 /* libPods-HOKitUITests.a */; };
 		B0D5A870AB174CA17E6711BD /* libPods-HOKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8DA0030F90C28E168FD187 /* libPods-HOKit.a */; };
 /* End PBXBuildFile section */
@@ -65,10 +71,22 @@
 		7719975D22094C360018A07B /* HOBottomSheetV1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOBottomSheetV1.h; sourceTree = "<group>"; };
 		7719975E22094C360018A07B /* HOBottomSheetV1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOBottomSheetV1.m; sourceTree = "<group>"; };
 		7719D26C2E4DFD14B7680F04 /* Pods-HOKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HOKitTests/Pods-HOKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		77DF77382217C60B0020089A /* FixedContentScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixedContentScrollView.h; sourceTree = "<group>"; };
+		77DF77392217C60B0020089A /* FixedContentScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FixedContentScrollView.m; sourceTree = "<group>"; };
+		77DF773B2217C7BE0020089A /* NestedTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestedTableView.h; sourceTree = "<group>"; };
+		77DF773C2217C7BE0020089A /* NestedTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestedTableView.m; sourceTree = "<group>"; };
+		77DF773E2217DD050020089A /* FixedBottomSheetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixedBottomSheetView.h; sourceTree = "<group>"; };
+		77DF773F2217DD050020089A /* FixedBottomSheetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FixedBottomSheetView.m; sourceTree = "<group>"; };
+		77DF77412217EB9D0020089A /* BottomPagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomPagesViewController.h; sourceTree = "<group>"; };
+		77DF77422217EB9D0020089A /* BottomPagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomPagesViewController.m; sourceTree = "<group>"; };
+		77DF77442217EBF90020089A /* DataListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataListViewController.h; sourceTree = "<group>"; };
+		77DF77452217EBF90020089A /* DataListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataListViewController.m; sourceTree = "<group>"; };
+		77DF77472217FC280020089A /* DoubanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubanViewController.h; sourceTree = "<group>"; };
+		77DF77482217FC280020089A /* DoubanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubanViewController.m; sourceTree = "<group>"; };
+		77DF774B221812350020089A /* InsVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsVideoViewController.h; sourceTree = "<group>"; };
+		77DF774C221812350020089A /* InsVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsVideoViewController.m; sourceTree = "<group>"; };
 		77FE7D7A220AD66200AA1B33 /* HOBottomSheetV2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOBottomSheetV2.h; sourceTree = "<group>"; };
 		77FE7D7B220AD66200AA1B33 /* HOBottomSheetV2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOBottomSheetV2.m; sourceTree = "<group>"; };
-		77FE7D7D220ADBF000AA1B33 /* UIScrollView+EnableSimultaneously.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EnableSimultaneously.h"; sourceTree = "<group>"; };
-		77FE7D7E220ADBF000AA1B33 /* UIScrollView+EnableSimultaneously.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EnableSimultaneously.m"; sourceTree = "<group>"; };
 		829EB9EE0159893225ECC4BD /* Pods-HOKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOKitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HOKitUITests/Pods-HOKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC575C2DFE5FEC53B0D4F596 /* Pods-HOKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HOKit/Pods-HOKit.debug.xcconfig"; sourceTree = "<group>"; };
 		FB5FB55747447A8B9645AC14 /* Pods-HOKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOKitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HOKitUITests/Pods-HOKitUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +155,8 @@
 		7719972A22094C200018A07B /* HOKit */ = {
 			isa = PBXGroup;
 			children = (
+				77DF774A221812160020089A /* InsVideo */,
+				77DF77372217C57D0020089A /* Douban */,
 				7719972B22094C200018A07B /* AppDelegate.h */,
 				7719972C22094C200018A07B /* AppDelegate.m */,
 				7719972E22094C200018A07B /* ViewController.h */,
@@ -150,8 +170,6 @@
 				7719975E22094C360018A07B /* HOBottomSheetV1.m */,
 				77FE7D7A220AD66200AA1B33 /* HOBottomSheetV2.h */,
 				77FE7D7B220AD66200AA1B33 /* HOBottomSheetV2.m */,
-				77FE7D7D220ADBF000AA1B33 /* UIScrollView+EnableSimultaneously.h */,
-				77FE7D7E220ADBF000AA1B33 /* UIScrollView+EnableSimultaneously.m */,
 			);
 			path = HOKit;
 			sourceTree = "<group>";
@@ -172,6 +190,34 @@
 				7719975122094C230018A07B /* Info.plist */,
 			);
 			path = HOKitUITests;
+			sourceTree = "<group>";
+		};
+		77DF77372217C57D0020089A /* Douban */ = {
+			isa = PBXGroup;
+			children = (
+				77DF77382217C60B0020089A /* FixedContentScrollView.h */,
+				77DF77392217C60B0020089A /* FixedContentScrollView.m */,
+				77DF773B2217C7BE0020089A /* NestedTableView.h */,
+				77DF773C2217C7BE0020089A /* NestedTableView.m */,
+				77DF773E2217DD050020089A /* FixedBottomSheetView.h */,
+				77DF773F2217DD050020089A /* FixedBottomSheetView.m */,
+				77DF77442217EBF90020089A /* DataListViewController.h */,
+				77DF77452217EBF90020089A /* DataListViewController.m */,
+				77DF77412217EB9D0020089A /* BottomPagesViewController.h */,
+				77DF77422217EB9D0020089A /* BottomPagesViewController.m */,
+				77DF77472217FC280020089A /* DoubanViewController.h */,
+				77DF77482217FC280020089A /* DoubanViewController.m */,
+			);
+			path = Douban;
+			sourceTree = "<group>";
+		};
+		77DF774A221812160020089A /* InsVideo */ = {
+			isa = PBXGroup;
+			children = (
+				77DF774B221812350020089A /* InsVideoViewController.h */,
+				77DF774C221812350020089A /* InsVideoViewController.m */,
+			);
+			path = InsVideo;
 			sourceTree = "<group>";
 		};
 		FABA2780E66A05B554966DE2 /* Pods */ = {
@@ -198,6 +244,7 @@
 				7719972422094C200018A07B /* Sources */,
 				7719972522094C200018A07B /* Frameworks */,
 				7719972622094C200018A07B /* Resources */,
+				A660F7A221260C25EF6F80B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -382,6 +429,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A660F7A221260C25EF6F80B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HOKit/Pods-HOKit-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HOKit/Pods-HOKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -389,9 +458,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77DF77432217EB9D0020089A /* BottomPagesViewController.m in Sources */,
 				77FE7D7C220AD66200AA1B33 /* HOBottomSheetV2.m in Sources */,
 				7719973022094C200018A07B /* ViewController.m in Sources */,
-				77FE7D7F220ADBF000AA1B33 /* UIScrollView+EnableSimultaneously.m in Sources */,
+				77DF773D2217C7BE0020089A /* NestedTableView.m in Sources */,
+				77DF773A2217C60B0020089A /* FixedContentScrollView.m in Sources */,
+				77DF77492217FC280020089A /* DoubanViewController.m in Sources */,
+				77DF77462217EBF90020089A /* DataListViewController.m in Sources */,
+				77DF774D221812350020089A /* InsVideoViewController.m in Sources */,
+				77DF77402217DD050020089A /* FixedBottomSheetView.m in Sources */,
 				7719973B22094C220018A07B /* main.m in Sources */,
 				7719972D22094C200018A07B /* AppDelegate.m in Sources */,
 				7719975F22094C360018A07B /* HOBottomSheetV1.m in Sources */,

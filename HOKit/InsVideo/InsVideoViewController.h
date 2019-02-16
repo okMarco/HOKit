@@ -1,8 +1,8 @@
 //
-//  UIScrollView+EnableSimultaneously.h
+//  InsVideoViewController.h
 //  HOKit
 //
-//  Created by HoChan on 2019/2/6.
+//  Created by HoChan on 2019/2/16.
 //  Copyright © 2019 Okhoochan. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIScrollView (EnableSimultaneously)
+@interface InsVideoViewController : UIViewController
 
 @end
 
